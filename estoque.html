@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BP Veículos - Estoque</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <!-- NAVBAR (mesma da home) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img
+          src="assets/img/logo/bp-logo.png"
+          alt="BP Veículos"
+          height="40"
+          class="me-2"
+        />
+        <span>BP Veículos</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Alternar navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="estoque.html">ESTOQUE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">SOBRE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">CONTATO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+
+   <section class="py-4 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Pesquise por modelo ou marca"
+              aria-label="Pesquisar"
+            />
+            <button class="btn btn-dark" type="submit">
+              <i class="bi bi-search"></i> <!-- ícone (opcional, com Bootstrap Icons) -->
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- LISTA DE VEÍCULOS -->
+  <section class="pb-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Card de veículo - duplique/edite conforme necessário -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="assets/img/carros/carro1.jpg"
+              class="card-img-top"
+              alt="Veículo 1"
+            />
+            <div class="card-body bg-dark text-white">
+              <h6 class="card-title mb-1">HONDA - PCX 150 DLX - 2020</h6>
+              <p class="mb-2">R$ 16.900,00</p>
+              <hr class="border-secondary" />
+              <div class="d-flex justify-content-between small">
+                <span>KM: 15.147</span>
+                <span>ANO: 2020</span>
+                <span>COMB: GASOLINA</span>
+              </div>
+            </div>
+            <div class="card-footer text-center bg-transparent border-0 pb-4">
+              <a href="contato.html" class="btn btn-success">
+                FALE COM A LOJA
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exemplo 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="assets/img/carros/carro2.jpg"
+              class="card-img-top"
+              alt="Veículo 2"
+            />
+            <div class="card-body bg-dark text-white">
+              <h6 class="card-title mb-1">
+                ROYAL ENFIELD - CONTINENTAL GT 650 - 2021
+              </h6>
+              <p class="mb-2">R$ 29.900,00</p>
+              <hr class="border-secondary" />
+              <div class="d-flex justify-content-between small">
+                <span>KM: 4.057</span>
+                <span>ANO: 2021</span>
+                <span>COMB: GASOLINA</span>
+              </div>
+            </div>
+            <div class="card-footer text-center bg-transparent border-0 pb-4">
+              <a href="contato.html" class="btn btn-success">
+                FALE COM A LOJA
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exemplo 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="assets/img/carros/carro3.jpg"
+              class="card-img-top"
+              alt="Veículo 3"
+            />
+            <div class="card-body bg-dark text-white">
+              <h6 class="card-title mb-1">
+                CHEVROLET - KADETT SL 1.8 EFI - 1992
+              </h6>
+              <p class="mb-2">R$ 39.900,00</p>
+              <hr class="border-secondary" />
+              <div class="d-flex justify-content-between small">
+                <span>KM: 28.000</span>
+                <span>ANO: 1992</span>
+                <span>COMB: GASOLINA</span>
+              </div>
+            </div>
+            <div class="card-footer text-center bg-transparent border-0 pb-4">
+              <a href="contato.html" class="btn btn-success">
+                FALE COM A LOJA
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- aqui depois você pode paginar ou carregar mais itens com JS -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white py-4">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <h5 class="mb-3">BP Veículos</h5>
+          <p class="mb-1">Av. Exemplo, 1234 - Bairro</p>
+          <p class="mb-1">Cidade - UF</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="mb-3">Horário de Atendimento</h5>
+          <p class="mb-1">Segunda à Sexta: 08h00 às 18h00</p>
+          <p class="mb-0">Sábados: 08h00 às 15h00</p>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <img
+            src="assets/img/logo/bp-logo-branco.png"
+            alt="BP Veículos"
+            height="50"
+          />
+          <p class="mt-2 mb-0">© 2025 BP Veículos</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

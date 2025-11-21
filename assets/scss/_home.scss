@@ -1,0 +1,52 @@
+// Seção de busca da home
+.hero-home + section {
+  background-color: $color-gray-light;
+
+  form {
+    input {
+      border-radius: 0;
+    }
+
+    button {
+      border-radius: 0;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  }
+}
+
+// Cards de destaque do estoque na home
+.bg-secondary-subtle {
+  background-color: #d5d5d5 !important; // cinza parecido com o modelo
+}
+
+.bg-secondary-subtle .card {
+  border: none;
+  box-shadow: $card-shadow;
+
+  .card-img-top {
+    max-height: 220px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 0.85rem 1rem;
+
+    h6 {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    p {
+      font-weight: 600;
+    }
+  }
+}
+
+.bg-secondary-subtle .btn.btn-dark {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.7rem 2.5rem;
+}
+

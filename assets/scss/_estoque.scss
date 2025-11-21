@@ -1,0 +1,59 @@
+// Título da página de estoque
+body .page-estoque-title,
+body .page-estoque-title h1 {
+  text-align: center;
+}
+
+// Cards de estoque
+section:nth-of-type(2) .card {
+  border: none;
+  box-shadow: $card-shadow;
+
+  .card-img-top {
+    max-height: 220px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    background-color: $color-dark-soft;
+    color: $color-white;
+    padding: 1rem 1.25rem;
+
+    h6 {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    hr {
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .small span {
+      text-transform: uppercase;
+      font-size: 0.75rem;
+    }
+  }
+
+  .card-footer {
+    background: transparent;
+  }
+}
+
+// Botão "Fale com a loja"
+.btn-success {
+  background-color: $color-accent;
+  border-color: $color-accent;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}

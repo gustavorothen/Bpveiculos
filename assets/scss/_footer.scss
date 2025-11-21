@@ -1,0 +1,19 @@
+footer {
+  background-color: $color-footer;
+  color: $color-white;
+
+  h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.95rem;
+  }
+
+  p {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+  }
+
+  img {
+    max-height: 50px;
+  }
+}

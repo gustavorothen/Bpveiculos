@@ -1,0 +1,75 @@
+// ============================
+//  Importa variáveis e parciais
+// ============================
+@import "variables";
+@import "header";
+@import "footer";
+@import "home";
+@import "estoque";
+@import "sobre";
+@import "contato";
+
+// ============================
+//  Layout geral (sticky footer)
+// ============================
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-family-base;
+  background-color: $color-gray-light;
+  color: $color-gray-dark;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// Conteúdo principal ocupa o espaço flexível
+main {
+  flex: 1 0 auto;
+}
+
+// footer empurrado pro final
+body > footer {
+  margin-top: auto;
+}
+
+// ============================
+//  Estilos globais
+// ============================
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Links padrão
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Títulos das seções principais
+section {
+  padding-top: $section-padding-y;
+  padding-bottom: $section-padding-y;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+// Utilitários simples
+.text-small {
+  font-size: 0.875rem;
+}

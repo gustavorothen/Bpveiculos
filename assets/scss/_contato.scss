@@ -1,4 +1,4 @@
-// Cartão preto de contato
+
 section:nth-of-type(2) .col-lg-4 .bg-black {
   background-color: $color-dark !important;
   color: $color-white;
@@ -20,7 +20,7 @@ section:nth-of-type(2) .col-lg-4 .bg-black {
   }
 }
 
-// Mapa
+
 section:nth-of-type(2) .ratio {
   box-shadow: $card-shadow;
   border-radius: 0.5rem;

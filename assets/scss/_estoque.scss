@@ -1,10 +1,10 @@
-// Título da página de estoque
+
 body .page-estoque-title,
 body .page-estoque-title h1 {
   text-align: center;
 }
 
-// Cards de estoque
+
 section:nth-of-type(2) .card {
   border: none;
   box-shadow: $card-shadow;
@@ -45,7 +45,6 @@ section:nth-of-type(2) .card {
   }
 }
 
-// Botão "Fale com a loja"
 .btn-success {
   background-color: $color-accent;
   border-color: $color-accent;

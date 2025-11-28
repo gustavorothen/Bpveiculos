@@ -48,6 +48,6 @@ Copiar código
 - Cards de veículos na página inicial  
 - Página de estoque com listagem visual  
 - Página sobre com informações da loja  
-- ✔ Página de contato com mapa integrado  
-- ✔ Botão flutuante “voltar ao topo” usando JavaScript  
-- ✔ Estrutura de código limpa e de fácil manutenção  
+- Página de contato com mapa integrado  
+- Botão flutuante “voltar ao topo” usando JavaScript  
+- Estrutura de código limpa e de fácil manutenção  

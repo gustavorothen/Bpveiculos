@@ -67,3 +67,21 @@ h4 {
 .text-small {
   font-size: 0.875rem;
 }
+
+.btn-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  font-size: 22px;
+  display: none;            /* começa escondido */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+}
